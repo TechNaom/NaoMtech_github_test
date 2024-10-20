@@ -11,7 +11,7 @@ This is test
 
 def wrap(string, max_width):
     count=0
-    str1=''''''
+    str1=''
     for i in string:
          str1+=i
          count=count+1
@@ -22,3 +22,4 @@ def wrap(string, max_width):
 if __name__ == '__main__':
     string, max_width = input(), int(input())
     result = wrap(string, max_width)
+    print(result)
