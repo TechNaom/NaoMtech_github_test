@@ -1,0 +1,41 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects Table</title>
+        <style>
+            table {{
+                width: 100%;
+                border-collapse: collapse;
+            }}
+            table, th, td {{
+                border: 1px solid black;
+            }}
+            th, td {{
+                padding: 10px;
+                text-align: left;
+            }}
+        </style>
+    </head>
+    <body>
+
+    <h2>Projects Table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Project</th>
+                <th>Project Folder</th>
+                <th>Project Size</th>
+            </tr>
+        </thead>
+        <tbody>
+    <tr><td rowspan="3">Project 1</td><td>Folder 1</td><td>10 MB</td></tr><tr><td>Folder 2</td><td>20 MB</td></tr><tr><td>Folder 3</td><td>30 MB</td></tr><tr><td rowspan="2">Project 2</td><td>Folder A</td><td>15 MB</td></tr><tr><td>Folder B</td><td>25 MB</td></tr><tr><td rowspan="1">Project 3</td><td>Folder X</td><td>40 MB</td></tr>
+        </tbody>
+    </table>
+
+    </body>
+    </html>
+    
