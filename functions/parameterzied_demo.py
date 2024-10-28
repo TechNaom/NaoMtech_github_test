@@ -5,12 +5,13 @@ def combine_strings(str1,str2):
 
 #function call
 combine_strings("Hello","World")
+This is test
 '''
 #import textwrap
 
 def wrap(string, max_width):
     count=0
-    str1=''''''
+    str1=''
     for i in string:
          str1+=i
          count=count+1
